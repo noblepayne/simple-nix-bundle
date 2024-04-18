@@ -1,5 +1,6 @@
 {
-  outputs = inputs@{ ... }:
+  outputs =
+    inputs@{ ... }:
     (
       let
         mkBundler = import ./bundle.nix;
